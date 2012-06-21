@@ -1,0 +1,8 @@
+Windows: <your home directory>\.<product name><version number>\config\templates
+
+Linux: ~\.<product name><version number>\config\templates
+
+MacOS: ~/Library/Preferences/<product name><version number>/templates
+
+
+thank you Trisox for the idea :D and the jQuery stuff
