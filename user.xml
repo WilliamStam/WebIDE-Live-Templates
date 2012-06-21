@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="user">
+  <template name="&lt;php" value="&lt;?php&#10;$END$&#10;?&gt;&#10;" description="insert php block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+      <option name="HAML" value="false" />
+    </context>
+  </template>
+  <template name="//" value="/* $END$ */" shortcut="SPACE" description="css comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="OTHER" value="false" />
+      <option name="HAML" value="false" />
+    </context>
+  </template>
+  <template name="script:jquery" value="&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;" description="insert google cdn jquery" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="OTHER" value="false" />
+      <option name="HAML" value="false" />
+    </context>
+  </template>
+</templateSet>
+
